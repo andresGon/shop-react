@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./containers/Header";
 import Footer from "./containers/footer";
 import Banner from "./containers/banner";
+//import SimpleSlider from "./containers/slider";
 
 import "./styles/main.css";
 
@@ -13,6 +14,7 @@ function App() {
       <div className="mainWrap">
         <Header/>
         <Banner/>
+        
         <Footer/>
       </div>
     </React.Fragment>
